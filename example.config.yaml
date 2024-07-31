@@ -1,0 +1,11 @@
+rpc: "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+address: "0xYourEthereumAddress"
+pk: "base64-encoded-aes-encrypted-private-key"
+secret: "your-secret-key"
+data: "0xYourTransactionData"
+value: "1000000000000000000" # Value in wei (1 ETH)
+to: "0xRecipientAddress"
+chainId: 1 # Mainnet
+approve:
+  token: "0xTokenAddress"
+  limit: 1000000
