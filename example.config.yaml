@@ -5,7 +5,6 @@ secret: "your-secret-key"
 data: "0xYourTransactionData"
 value: "1000000000000000000" # Value in wei (1 ETH)
 to: "0xRecipientAddress"
-chainId: 1 # Mainnet
 approve:
   token: "0xTokenAddress"
   limit: 1000000

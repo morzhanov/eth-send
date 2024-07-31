@@ -25,7 +25,6 @@ secret: "yourSecretForDecrypting"
 data: "0xYourTransactionData"
 value: "0"
 to: "0xRecipientAddress"
-chainId: 1
 approve:
   token: "0xTokenAddress"
   limit: 1000000
@@ -38,7 +37,6 @@ approve:
 - `data`: Transaction data (optional, used if approve is not set).
 - `value`: Transaction value in wei (default: 0).
 - `to`: Recipient address.
-- `chainId`: eth-like chain id
 - `approve`: Optional. If set, an ERC20 token approval transaction will be composed and sent.
     - `token`: Token address to approve.
     - `limit`: Amount of tokens to approve.

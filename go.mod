@@ -2,7 +2,10 @@ module github.com/morzhanov/eth-send
 
 go 1.22.5
 
-require github.com/ethereum/go-ethereum v1.14.7
+require (
+	github.com/ethereum/go-ethereum v1.14.7
+	gopkg.in/yaml.v2 v2.4.0
+)
 
 require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect

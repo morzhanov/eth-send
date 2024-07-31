@@ -6,7 +6,7 @@ build:
 
 # Run the Go application
 run:
-	./$(BINARY_NAME)
+	go build -o $(BINARY_NAME) main.go && ./$(BINARY_NAME)
 
 # Clean build artifacts
 clean:
